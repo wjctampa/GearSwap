@@ -1550,8 +1550,6 @@ function get_idle_set(petStatus)
 			idleSet = set_combine(idleSet, {body="Kingdom Aketon"})
 		elseif world.area == "Mog Garden" and item_available("Jubilee Shirt") then
 			idleSet = set_combine(idleSet, {body="Jubilee Shirt"})
-		elseif world.area == "Aht Urhgan Whitegate" and item_available("Glory Crown") then
-			idleSet = set_combine(idleSet, {head="Glory Crown"})
 		end
 	end
 
